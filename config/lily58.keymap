@@ -53,8 +53,10 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_TAP";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "tap-preferred";
         };
 
         left_tap_gui: left_tap_gui {
