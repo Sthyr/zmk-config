@@ -13,39 +13,28 @@
     combos {
         compatible = "zmk,combos";
 
-        esc_left {
+        combo_esc_left {
             bindings = <&kp ESC>;
             key-positions = <13 14>;
+            layers = <0>;
         };
 
-        esc_right {
+        combo_esc_right {
             bindings = <&kp ESC>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
-        super {
+        combo_super {
             bindings = <&kp LEFT_GUI>;
             key-positions = <14 15>;
+            layers = <0>;
         };
 
-        cut {
-            bindings = <&kp K_CUT>;
-            key-positions = <38 39>;
-        };
-
-        copy {
-            bindings = <&kp K_COPY>;
-            key-positions = <39 40>;
-        };
-
-        single_quote {
+        combo_single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <20 21>;
-        };
-
-        quit_app {
-            bindings = <&kp C_QUIT>;
-            key-positions = <13 14 15>;
+            layers = <0>;
         };
     };
 
@@ -161,6 +150,16 @@
 &trans          &kp F11     &kp F4      &kp F5   &kp F6     &kp K_SCREENSAVER                    &trans         &trans         &trans         &trans         &trans         &trans
 &trans          &kp F10     &kp F1      &kp F2   &kp F3     &kp C_PAUSE        &trans    &trans  &trans         &trans         &trans         &trans         &trans         &trans
                                         &kp F13  &kp SPACE  &kp TAB            &trans    &trans  &trans         &trans         &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
