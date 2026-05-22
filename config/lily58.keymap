@@ -40,34 +40,6 @@
         };
     };
 
-    behaviors {
-        hold_tap: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-
-            flavor = "tap-preferred";
-        };
-
-        left_tap_gui: left_tap_gui {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LEFT_TAP_GUI";
-            #binding-cells = <0>;
-            tapping-term-ms = <190>;
-            bindings = <&kp A>, <&kp LEFT_GUI>;
-        };
-
-        right_tap_gui: right_tap_gui {
-            compatible = "zmk,behavior-tap-dance";
-            label = "RIGHT_TAP_GUI";
-            #binding-cells = <0>;
-            tapping-term-ms = <190>;
-            bindings = <&kp O>, <&kp LEFT_GUI>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -152,16 +124,6 @@
 &trans          &kp F11     &kp F4      &kp F5   &kp F6     &kp K_SCREENSAVER                    &trans         &trans         &trans         &trans         &trans         &trans
 &trans          &kp F10     &kp F1      &kp F2   &kp F3     &kp C_PAUSE        &trans    &trans  &trans         &trans         &trans         &trans         &trans         &trans
                                         &kp F13  &kp SPACE  &kp TAB            &trans    &trans  &trans         &trans         &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
