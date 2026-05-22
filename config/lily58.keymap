@@ -78,11 +78,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp GRAVE         &kp N1         &kp N2                &kp N3                    &kp N4                  &kp N5                     &kp N6       &kp N7                   &kp N8                     &kp N9                 &kp N0            &kp MINUS
-&kp TAB           &kp Q          &kp W                 &kp F                     &kp P                   &kp B                      &kp J        &kp L                    &kp U                      &kp Y                  &kp SINGLE_QUOTE  &kp EQUAL
-&kp LEFT_BRACKET  &left_tap_gui  &hold_tap LEFT_ALT R  &hold_tap LEFT_CONTROL S  &hold_tap LEFT_SHIFT T  &kp G                      &kp M        &hold_tap RIGHT_SHIFT N  &hold_tap RIGHT_CONTROL E  &hold_tap RIGHT_ALT I  &right_tap_gui    &kp RIGHT_BRACKET
-&kp SEMICOLON     &kp Z          &kp X                 &kp C                     &kp D                   &kp V      &none    &none  &kp K        &kp H                    &kp COMMA                  &kp DOT                &kp FSLH          &kp BACKSLASH
-                                                       &lt 1 ESCAPE              &lt 2 SPACE             &lt 3 TAB  &none    &none  &lt 4 ENTER  &lt 5 BACKSPACE          &lt 6 DEL
+&kp GRAVE         &kp N1  &kp N2          &kp N3              &kp N4            &kp N5                     &kp N6       &kp N7             &kp N8               &kp N9           &kp N0            &kp MINUS
+&kp TAB           &kp Q   &kp W           &kp F               &kp P             &kp B                      &kp J        &kp L              &kp U                &kp Y            &kp SINGLE_QUOTE  &kp EQUAL
+&kp LEFT_BRACKET  &kp A   &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G                      &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &kp O             &kp RIGHT_BRACKET
+&kp SEMICOLON     &kp Z   &kp X           &kp C               &kp D             &kp V      &none    &none  &kp K        &kp H              &kp COMMA            &kp DOT          &kp FSLH          &kp BACKSLASH
+                                          &lt 1 ESCAPE        &lt 2 SPACE       &lt 3 TAB  &none    &none  &lt 4 ENTER  &lt 5 BACKSPACE    &lt 6 DEL
             >;
         };
 
@@ -125,11 +125,11 @@
 
         symbols {
             bindings = <
-&trans  &trans     &trans         &trans                &trans                 &trans                       &trans                &trans                 &trans             &trans             &trans          &trans
-&trans  &trans     &kp AMPERSAND  &kp ASTRK             &trans                 &trans                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans  &kp COLON  &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS                     &trans                &kp RIGHT_SHIFT        &kp RIGHT_CONTROL  &kp RIGHT_ALT      &kp RGUI        &trans
-&trans  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE   &trans    &trans  &trans                &trans                 &trans             &trans             &trans          &trans
-                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &trans    &trans  &trans                &trans                 &trans
+&trans         &trans            &trans         &trans                &trans                 &trans                       &trans                &trans                 &trans             &trans             &trans          &trans
+&kp LESS_THAN  &kp GREATER_THAN  &kp AMPERSAND  &kp ASTRK             &trans                 &trans                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans         &kp COLON         &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS                     &trans                &kp RIGHT_SHIFT        &kp RIGHT_CONTROL  &kp RIGHT_ALT      &kp RGUI        &trans
+&trans         &kp TILDE         &kp EXCL       &kp AT                &kp HASH               &kp PIPE   &trans    &trans  &trans                &trans                 &trans             &trans             &trans          &trans
+                                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &trans    &trans  &trans                &trans                 &trans
             >;
         };
 
