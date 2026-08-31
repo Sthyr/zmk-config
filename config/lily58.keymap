@@ -55,7 +55,7 @@ bindings = <
             bindings = <                                                                                                                                                
     &trans     &trans    &trans       &trans        &trans           &trans                           &trans            &trans         &trans    &trans   &trans &trans
     &trans     &trans    &kp LS(N1)   &kp LS(SLASH) &kp LS(N8)       &kp LS(N9)                       &kp LS(N7)        &kp LC(RA(N4)) &kp AT    &kp AMPS &trans &trans
-    &trans     &kp NUBS  &kp LS(NUBS) &kp LS(N0)    &kp LBR          &kp LBR                          &kp LC(RA(GRAVE)) &kp LC(RA(N1)) &kp HASH  &kp DLLR &trans &trans
+    &trans     &kp NUBS  &kp LS(NUBS) &kp LS(N0)    &kp LBR          &kp LBR                          &kp LC(RA(GRAVE)) &kp LC(RA(N1)) &kp HASH  &kp DOLLAR &trans &trans
     &kp LS(N7) &kp SLASH &kp RBRC     &kp LS(RBRC)  &kp LC(RA(LBKT)) &kp LC(RA(RBKT)) &none     &none &trans            &trans         &kp CARET &trans   &trans &trans
                                       &trans        &trans           &trans           &none     &none &trans            &trans         &trans
             >;
