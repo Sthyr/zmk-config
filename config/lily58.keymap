@@ -15,17 +15,17 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------------
-// |         |      |       |         |         |       |               |       |        |    '    |    "     |      ¡      |      !      |
-// |  GUI    |  Q   |   W   |   F     |    P    |   B   |               |   J   |   L    |    U    |    Y     |      ¿      |      ?      |
-// |  CTRL   |  A   |   R   |   S     |    T    |   G   |               |   M   |   N    |    E    |    I     |      O      |      ´      |
-// |  SHIFT  |  Z   |   X   |   C     |    D    |   V   |     |   |     |   K   |   H    |    Ñ    |    ,     |      .      |      -      |
-//                          |  CTRL   |   SPC   |  TAB  |     |   |     | ENTER |  BSPC  |   DEL   |                                       
+// |         |      |       |         |         |       |               |       |          |    '    |    "     |      ¡      |      !      |
+// |  GUI    |  Q   |   W   |   F     |    P    |   B   |               |   J   |    L     |    U    |    Y     |      ¿      |      ?      |
+// |  CTRL   |  A   |   R   |   S     |    T    |   G   |               |   M   |    N     |    E    |    I     |      O      |      ´      |
+// |  SHIFT  |  Z   |   X   |   C     |    D    |   V   |     |   |     |   K   |    H     |    Ñ    |    ,     |      .      |      -      |
+//                          |  CTRL   |   SPC   |  TAB  |     |   |     | ENTER |   BSPC   |   DEL   |                                       
 bindings = <                                                                                                                  
-    &none     &none  &none   &none     &none     &none                   &none   &none    &kp MINUS &kp LS(N2) &kp LS(EQUAL) &kp LS(N1)
-    &kp LGUI  &kp Q  &kp W   &kp F     &kp P     &kp B                   &kp J   &kp L    &kp U     &kp Y      &kp EQUAL     &kp LS(MINUS)
-    &kp LCTRL &kp A  &kp R   &kp S     &kp T     &kp G                   &kp M   &kp N    &kp E     &kp I      &kp O         &kp LBKT
-    &kp LSHFT &kp Z  &kp X   &kp C     &kp D     &kp V   &none     &none &kp K   &kp H    &kp SEMI  &kp COMMA  &kp DOT       &kp SLASH
-                             &kp LCTRL &kp SPACE &kp TAB &none     &none &kp RET &kp BSPC &kp DEL
+    &none     &none  &none   &none     &none     &none                   &none   &none      &kp MINUS &kp LS(N2) &kp LS(EQUAL) &kp LS(N1)
+    &kp LGUI  &kp Q  &kp W   &kp F     &kp P     &kp B                   &kp J   &kp L      &kp U     &kp Y      &kp EQUAL     &kp LS(MINUS)
+    &kp LCTRL &kp A  &kp R   &kp S     &kp T     &kp G                   &kp M   &kp N      &kp E     &kp I      &kp O         &kp LBKT
+    &kp LSHFT &kp Z  &kp X   &kp C     &kp D     &kp V   &none     &none &kp K   &kp H      &kp SEMI  &kp COMMA  &kp DOT       &kp SLASH
+                             &kp LCTRL &kp SPACE &kp TAB &none     &none &kp RET &lt 2 BSPC &kp DEL
             >;
         };
 
@@ -55,7 +55,7 @@ bindings = <
             bindings = <                                                                                                                                                
     &trans     &trans    &trans       &trans        &trans           &trans                           &trans            &trans         &trans    &trans   &trans &trans
     &trans     &trans    &kp LS(N1)   &kp LS(SLASH) &kp LS(N8)       &kp LS(N9)                       &kp LS(N7)        &kp LC(RA(N4)) &kp AT    &kp AMPS &trans &trans
-    &trans     &kp NUBS  &kp LS(NUBS) &kp LS(N0)    &kp LBR          &kp LBR                          &kp LC(RA(GRAVE)) &kp LC(RA(N1)) &kp HASH  &kp DOLLAR &trans &trans
+    &trans     &kp NUBS  &kp LS(NUBS) &kp LS(N0)    &kp LBRC         &kp RBRC                         &kp LC(RA(GRAVE)) &kp LC(RA(N1)) &kp HASH  &kp DLLR &trans &trans
     &kp LS(N7) &kp SLASH &kp RBRC     &kp LS(RBRC)  &kp LC(RA(LBKT)) &kp LC(RA(RBKT)) &none     &none &trans            &trans         &kp CARET &trans   &trans &trans
                                       &trans        &trans           &trans           &none     &none &trans            &trans         &trans
             >;
